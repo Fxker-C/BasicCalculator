@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var currentNumber = 0
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Benjamin :D, update!")
+            HStack{
+                Button("1"){numberPressed("7")}
+            }
         }
-        .padding()
+    }
+    
+    func numberPressed(_ number:String){
+        
     }
 }
 
