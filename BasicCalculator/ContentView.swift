@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-        
+    
     @State var currentNumber = "0"
     @State var previousNumber = "0"
     @State var operation:String? = nil
@@ -91,7 +91,7 @@ struct ContentView: View {
                         .padding(10)
                         .background(.orange)
                         .cornerRadius(16)
-                    Button("÷") { operationPressed("÷") }
+                    Button("/") { operationPressed("/") }
                         .padding(10)
                         .background(.orange)
                         .cornerRadius(16)
@@ -120,7 +120,7 @@ struct ContentView: View {
             currentNumber += number
         }
     }
-
+    
     
     func operationPressed(_ op:String){
         if currentNumber != "0"{
@@ -136,6 +136,23 @@ struct ContentView: View {
             return
         }
         
+        switch operation {
+        case "+":
+            currentNumber = String(previous + current)
+        case "-":
+            currentNumber = String(previous - current)
+        case "x":
+            currentNumber = String(previous * current)
+        case "/":
+            if current != 0 {
+                currentNumber = String(previous / current)
+            }else{
+                currentNumber = "error"
+            }
+        default:
+            break
+        }
+        operation = nil
         
     }
     
