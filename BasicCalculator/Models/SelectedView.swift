@@ -4,5 +4,9 @@
 //
 //  Created by Aly Benjamin Contreras Del Pino on 7/02/25.
 //
+import SwiftUI
 
-import Foundation
+enum SelectedView {
+    case calculator, converter, history
+}
+
