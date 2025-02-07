@@ -174,28 +174,8 @@ import SwiftUI
 struct ContentView: View{
     var body: some View{
         VStack{
-            CalculatorHeaderView()
-            Spacer()
+            
         }
-    }
-}
-
-struct CalculatorHeaderView: View {
-    @State private var animate = false
-    var body: some View {
-        HStack(spacing: 20){
-            Text("Calculadora")
-            Text("Convertidor")
-            /*Button(action: viewHistory) {
-                Image(systemName: "clock.arrow.trianglehead.counterclockwise.rotate.90")
-                    .symbolEffect(.rotate.clockwise.byLayer, value: animate)
-            }*/
-            Text("Historial")
-        }
-    }
-    private func viewHistory(){
-        //animate.toggle()
-        print("GGGGGG")
     }
 }
 
