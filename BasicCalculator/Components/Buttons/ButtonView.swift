@@ -30,6 +30,6 @@ struct ButtonView: View {
 }
 
 #Preview {
-    ButtonView(title: "7") { print("Pressed 7") }
+    ButtonView(title: "10") { print("Pressed 10") }
 }
 
