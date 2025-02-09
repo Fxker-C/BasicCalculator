@@ -23,7 +23,7 @@ struct MainView: View {
             case .converter:
                 ConverterView()
             case .history:
-                HistoryView() // Asegúrate de importarlo si está en otro archivo
+                HistoryView()
             }
             
             Spacer()

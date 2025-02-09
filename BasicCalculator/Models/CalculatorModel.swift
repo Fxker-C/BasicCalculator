@@ -42,7 +42,7 @@ class CalculatorModel: ObservableObject {
         case "*": currentValue = previous * current
         case "/":
             currentValue = (current != 0) ? previous / current : 0
-        case "%":  // ✅ Operación de porcentaje
+        case "%":  
             currentValue = previous.truncatingRemainder(dividingBy: current)
         default: break
         }
