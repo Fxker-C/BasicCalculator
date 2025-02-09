@@ -13,7 +13,6 @@ struct CalculatorView: View {
 
     var body: some View {
         VStack {
-            //HeaderTabs(selectedView: .constant(.calculator))
 
             Spacer()
 
