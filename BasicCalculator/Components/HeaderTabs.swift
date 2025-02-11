@@ -27,7 +27,7 @@ struct TabButton: View {
     var body: some View {
         Button(action: { selectedView = view }) {
             Text(title)
-                .foregroundColor(selectedView == view ? .blue : .black)
+                .foregroundColor(selectedView == view ? .blue : .accentColor)
                 .fontWeight(selectedView == view ? .bold : .regular)
         }
     }
