@@ -33,7 +33,7 @@ enum ConversionCategory: String, CaseIterable {
         case .sistemaNumerico: return "number"
         case .velocidad: return "gauge"
         case .temperatura: return "thermometer"
-        case .imc: return "person"
+        case .imc: return "heart.text.clipboard.fill"
         }
     }
 }

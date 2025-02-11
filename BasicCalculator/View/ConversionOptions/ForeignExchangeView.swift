@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ForeignExchangeView: View {
     var body: some View {
-        Text("Divisas")
-            .font(.title)
+        VStack{
+            Text("Divisas")
+                .font(.title)
+        }
     }
 }
 
