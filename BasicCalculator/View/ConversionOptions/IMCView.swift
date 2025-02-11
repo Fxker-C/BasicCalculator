@@ -9,8 +9,11 @@ import SwiftUI
 
 struct IMCView: View {
     var body: some View {
-        Text("IMC")
-            .font(.title)
+        VStack {
+            Text("IMC")
+                .font(.title)
+        }.navigationTitle("IMC")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

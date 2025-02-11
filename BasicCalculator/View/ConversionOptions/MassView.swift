@@ -9,8 +9,10 @@ import SwiftUI
 
 struct MassView: View {
     var body: some View {
-        Text("Masa")
-            .font(.title)
+        VStack {
+            Text("Masa")
+                .font(.title)
+        }
     }
 }
 

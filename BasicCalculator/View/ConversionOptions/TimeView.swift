@@ -9,8 +9,10 @@ import SwiftUI
 
 struct TimeView: View {
     var body: some View {
-        Text("Tiempo")
-            .font(.title)
+        VStack {
+            Text("Tiempo")
+                .font(.title)
+        }
     }
 }
 

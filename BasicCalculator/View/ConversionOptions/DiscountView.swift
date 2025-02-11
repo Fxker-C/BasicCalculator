@@ -9,8 +9,10 @@ import SwiftUI
 
 struct DiscountView: View {
     var body: some View {
-        Text("Descuento")
-            .font(.title)
+        VStack {
+            Text("Descuento")
+                .font(.title)
+        }
     }
 }
 

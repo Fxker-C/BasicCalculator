@@ -9,8 +9,10 @@ import SwiftUI
 
 struct TemperatureView: View {
     var body: some View {
-        Text("Temperatura")
-            .font(.title)
+        VStack {
+            Text("Temperatura")
+                .font(.title)
+        }
     }
 }
 

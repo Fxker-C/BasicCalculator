@@ -9,8 +9,10 @@ import SwiftUI
 
 struct NumberSystemView: View {
     var body: some View {
-        Text("Sistema Numérico")
-            .font(.title)
+        VStack {
+            Text("Sistema Numérico")
+                .font(.title)
+        }
     }
 }
 

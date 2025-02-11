@@ -9,8 +9,10 @@ import SwiftUI
 
 struct DataView: View {
     var body: some View {
-        Text("Datos")
-            .font(.title)
+        VStack {
+            Text("Datos")
+                .font(.title)
+        }
     }
 }
 

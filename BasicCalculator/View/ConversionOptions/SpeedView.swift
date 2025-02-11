@@ -9,8 +9,10 @@ import SwiftUI
 
 struct SpeedView: View {
     var body: some View {
-        Text("Velocidad")
-            .font(.title)
+        VStack {
+            Text("Velocidad")
+                .font(.title)
+        }
     }
 }
 

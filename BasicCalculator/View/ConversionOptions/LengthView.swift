@@ -9,8 +9,11 @@ import SwiftUI
 
 struct LengthView: View {
     var body: some View {
-        Text("Longitud")
-            .font(.title)
+        VStack{
+            Text("Longitud")
+                .font(.title)
+            
+        }
     }
 }
 

@@ -9,8 +9,10 @@ import SwiftUI
 
 struct VolumeView: View {
     var body: some View {
-        Text("Volumen")
-            .font(.title)
+        VStack {
+            Text("Volumen")
+                .font(.title)
+        }
     }
 }
 

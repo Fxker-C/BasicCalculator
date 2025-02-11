@@ -9,8 +9,10 @@ import SwiftUI
 
 struct AreaView: View {
     var body: some View {
-        Text("Area")
-            .font(.title)
+        VStack {
+            Text("Area")
+                .font(.title)
+        }
     }
 }
 
