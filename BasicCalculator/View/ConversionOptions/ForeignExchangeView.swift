@@ -7,12 +7,14 @@
 
 import SwiftUI
 
-struct ForeignExchangeView: View {
+struct ForeignExchangeView: View {     
+
     var body: some View {
-        VStack{
+        VStack {
             Text("Divisas")
-                .font(.title)
-        }
+                .font(.largeTitle)
+        }.navigationTitle("Divisas") // Agrega el título
+            .navigationBarTitleDisplayMode(.inline)
     }
 }
 

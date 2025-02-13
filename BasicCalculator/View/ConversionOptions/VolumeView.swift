@@ -15,7 +15,3 @@ struct VolumeView: View {
         }
     }
 }
-
-#Preview {
-    VolumeView()
-}

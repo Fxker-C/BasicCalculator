@@ -15,7 +15,3 @@ struct TimeView: View {
         }
     }
 }
-
-#Preview {
-    TimeView()
-}

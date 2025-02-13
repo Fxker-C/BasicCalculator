@@ -15,7 +15,3 @@ struct MassView: View {
         }
     }
 }
-
-#Preview {
-    MassView()
-}

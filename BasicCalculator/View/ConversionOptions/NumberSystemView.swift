@@ -15,7 +15,3 @@ struct NumberSystemView: View {
         }
     }
 }
-
-#Preview {
-    NumberSystemView()
-}

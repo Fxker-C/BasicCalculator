@@ -13,7 +13,6 @@ struct MainView: View {
     var body: some View {
         VStack {
             HeaderTabs(selectedView: $selectedView)
-            
             Spacer()
             
             switch selectedView {
@@ -34,3 +33,4 @@ struct MainView: View {
 #Preview {
     MainView()
 }
+

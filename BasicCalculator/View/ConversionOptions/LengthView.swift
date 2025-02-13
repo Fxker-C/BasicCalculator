@@ -17,6 +17,3 @@ struct LengthView: View {
     }
 }
 
-#Preview {
-    LengthView()
-}

@@ -15,7 +15,3 @@ struct DiscountView: View {
         }
     }
 }
-
-#Preview {
-    DiscountView()
-}

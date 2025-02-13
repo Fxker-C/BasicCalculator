@@ -16,7 +16,3 @@ struct IMCView: View {
         .navigationBarTitleDisplayMode(.inline)
     }
 }
-
-#Preview {
-    IMCView()
-}

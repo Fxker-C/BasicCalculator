@@ -15,7 +15,3 @@ struct SpeedView: View {
         }
     }
 }
-
-#Preview {
-    SpeedView()
-}

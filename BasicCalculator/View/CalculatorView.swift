@@ -22,7 +22,7 @@ struct CalculatorView: View {
                 .fontWeight(.bold)
                 .frame(maxWidth: .infinity, alignment: .trailing)
                 .padding()
-                .background(Color.gray.opacity(0.2))
+                //.background(Color.gray.opacity(0.2))
                 .cornerRadius(10)
                 .padding(.horizontal)
 

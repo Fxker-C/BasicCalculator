@@ -15,7 +15,3 @@ struct TemperatureView: View {
         }
     }
 }
-
-#Preview {
-    TemperatureView()
-}
