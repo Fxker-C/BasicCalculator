@@ -16,7 +16,6 @@ struct MainView: View {
             
             Spacer()
             
-            // Cambia la vista según la pestaña seleccionada
             switch selectedView {
             case .calculator:
                 CalculatorView()
